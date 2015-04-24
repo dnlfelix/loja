@@ -1,0 +1,9 @@
+(function($) {
+	"use strict";
+
+	$.fn.inputNumerico=function(){
+		var naoNumeros = /D/g;
+	return this;
+};
+
+})(jQuery);
